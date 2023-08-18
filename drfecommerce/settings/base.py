@@ -6,8 +6,8 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get("SECRET_KEY") 
-DEBUG = os.environ.get("DEBUG") 
+SECRET_KEY = os.environ.get("SECRET_KEY")
+DEBUG = os.environ.get("DEBUG")
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -17,11 +17,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #external_package
+    # external_package
     'rest_framework',
 
-    #apps
-
+    # apps
+    'app_product',
 ]
 
 MIDDLEWARE = [
@@ -82,6 +82,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-REST_FRAMEWORK ={
-    
+REST_FRAMEWORK = {
+
 }
