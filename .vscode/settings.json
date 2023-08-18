@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["drfecommerce"]
+  "cSpell.words": ["drfecommerce"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }

@@ -1,10 +1,13 @@
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-l%af74z3mril$imn0i!@x08=sglfefe_fpm^jseo#9x((8t&af'
-
-DEBUG = False
+SECRET_KEY = os.environ.get("SECRET_KEY") 
+DEBUG = os.environ.get("DEBUG") 
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -13,6 +16,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #external_package
+    'rest_framework',
+
+    #apps
+
 ]
 
 MIDDLEWARE = [
@@ -71,3 +80,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+REST_FRAMEWORK ={
+    
+}
