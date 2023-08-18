@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["drfecommerce"],
+  "cSpell.words": ["drfecommerce", "MPTT"],
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
