@@ -1,5 +1,13 @@
 {
-  "cSpell.words": ["drfecommerce", "MPTT", "viewset", "viewsets"],
+  "cSpell.words": [
+    "drfecommerce",
+    "MPTT",
+    "openai",
+    "openapi",
+    "sessionid",
+    "viewset",
+    "viewsets"
+  ],
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
