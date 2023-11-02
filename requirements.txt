@@ -2,7 +2,7 @@ asgiref==3.7.2
 attrs==23.1.0
 colorama==0.4.6
 coverage==7.3.0
-Django==4.2.4
+Django==4.2.7
 django-js-asset==2.1.0
 django-mptt==0.14.0
 djangorestframework==3.14.0
